@@ -1,0 +1,56 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/inline.95cb5b68fbe8b523c6f1.bundle.js",
+        "/main.dcc37d330a35b1490551.bundle.js",
+        "/polyfills.ad37cd45a71cb38eee76.bundle.js",
+        "/styles.d41d8cd98f00b204e980.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icon-128x128.png",
+        "/assets/icon-152x152.png",
+        "/assets/icon-256x256.png",
+        "/assets/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/cat\\/"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/inline.95cb5b68fbe8b523c6f1.bundle.js": "57fa40e90de5a196a02763aff81d5553ac616d8e",
+    "/assets/icon-128x128.png": "e1b0bef0558aa52a539be48f0ed3f9c8369c2b06",
+    "/main.dcc37d330a35b1490551.bundle.js": "b2622aae4dded711c137f5fbef065ebaaf2a5465",
+    "/assets/icon-152x152.png": "7116dea0036e34954445288a27d62283e6085d80",
+    "/polyfills.ad37cd45a71cb38eee76.bundle.js": "e74e95af4f1c82ce8cd07c3793477c67342510d8",
+    "/assets/icon-256x256.png": "b31c4dd307585e07654b15720fd68af82765e2d1",
+    "/styles.d41d8cd98f00b204e980.bundle.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/assets/icon-512x512.png": "93820f5a89eff968a27f8eaf5113d0ac23f33a6d",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "05fdf53d59d0ebb67c95f1e7fdbf2ccbe854b381"
+  }
+}
